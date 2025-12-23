@@ -1,2 +1,2 @@
 # Podman-Nginx-Bash-Script
-Podman aracı ile nginx otomatik kurulumlu konteyner eklentisi
+Podman aracı ile nginx otomatik konteyner kurulum scripti.
