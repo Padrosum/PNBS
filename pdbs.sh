@@ -11,6 +11,7 @@ NC='\033[0m'
 # --- KULLANIM KILAVUZU ---
 # Eğer kullanıcı argüman girmezse nasıl kullanılacağını göster
 if [ -z "$1" ] || [ -z "$2" ]; then
+    echo "  "
     echo "HATA: Eksik parametre girdiniz."
     echo "  "
     echo -e "${KIRMIZI}Kullanım: ${NC} ./nginx_multi.sh [ISIM] [PORT]"
